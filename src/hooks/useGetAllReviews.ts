@@ -10,7 +10,7 @@ type GetAllReviewsResponse = {
 export function useGetAllReviews(): GetAllReviewsResponse {
 	const [jsonResponse, setJsonResponse] = useState<Array<ReviewObject>>([defaultReviewObject]);
 	const [isLoading, setIsLoading] = useState(true);
-	const url = 'https://shakespeare.podium.com/api/reviews';
+	const url = `${process.env.REACT_APP_API_BASE_URL}/api/reviews`;
 	const { data } = useGet(url);
 
 	useEffect(() => {

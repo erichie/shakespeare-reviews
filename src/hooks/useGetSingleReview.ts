@@ -10,7 +10,7 @@ type GetSingleReviewResponse = {
 export default function useGetSingleReview(id: string): GetSingleReviewResponse {
 	const [jsonResponse, setJsonResponse] = useState<ReviewObject>(defaultReviewObject);
 	const [isLoading, setIsLoading] = useState(true);
-	const url = `https://shakespeare.podium.com/api/reviews/${id}`;
+	const url = `${process.env.REACT_APP_API_BASE_URL}/api/reviews/${id}`;
 	const { data } = useGet(url);
 
 	useEffect(() => {

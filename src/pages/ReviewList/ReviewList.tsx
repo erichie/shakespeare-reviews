@@ -1,6 +1,6 @@
-import { useGetAllReviews } from "../hooks/useGetAllReviews";
-import { ReviewObject } from "../types";
-import { ListItem } from "./components/ListItem/ListItem";
+import { useGetAllReviews } from "../../hooks/useGetAllReviews";
+import { ReviewObject } from "../../types";
+import { ListItem } from "../components/ListItem/ListItem";
 import './ReviewList.css';
 
 export function ReviewList() {

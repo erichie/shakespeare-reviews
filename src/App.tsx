@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import { ReviewList } from './pages/ReviewList';
-import { ReviewDetails } from './pages/ReviewDetails';
+import { ReviewList } from './pages/ReviewList/ReviewList';
+import { ReviewDetails } from './pages/ReviewDetails/ReviewDetails';
 
 function App() {
   return (

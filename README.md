@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Getting Started with Shakespeare Reviews
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Getting Started Setup
+
+Make a local copy of the `.env` file named `.env.local` and fill out the keys with your API_KEY and API_BASE_URL. (You should know these)
+
+After doing that run 
+
+### `npm install`
+
+And then run the first command below to get your app running in development mode.
 
 ## Available Scripts
 

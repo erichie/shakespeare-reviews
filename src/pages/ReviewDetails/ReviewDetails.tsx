@@ -1,7 +1,7 @@
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import useGetSingleReview from "../hooks/useGetSingleReview";
-import placeholderPerson from '../images/person_placeholder.png';
+import useGetSingleReview from "../../hooks/useGetSingleReview";
+import placeholderPerson from '../../images/person_placeholder.png';
 import './ReviewDetails.css';
 
 export function ReviewDetails() {
